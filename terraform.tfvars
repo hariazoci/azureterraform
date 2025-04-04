@@ -1,0 +1,10 @@
+location             = "East US"
+resource_group_name  = "pipeline-test-rg"
+vnet_name            = "pipline-test-vnet"
+vnet_address_space   = ["10.0.0.0/16"]
+subnet_name          = "pipeline-test-subnet"
+subnet_address_prefix = "10.0.1.0/24"
+vm_name              = "myUbuntuVM"
+vm_size              = "Standard_B2s"
+admin_username       = "azureuser"
+admin_password       = "StrongP@ssw0rd123"
